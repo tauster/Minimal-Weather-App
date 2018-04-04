@@ -1,0 +1,70 @@
+/*
+  Tausif S. 2018
+*/
+
+/* Chainging Body Color and All Fonts */
+body{
+  background: #353839;
+  font-family: Roboto, Arial;
+}
+
+/* Centering Well and Making Hidden */
+.well{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+}
+
+/* Circular Buttons */
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  font-
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+/* Adjusting Temperature Font */
+#temp{
+  font-size: 84px;
+  color: #FFFFFF;
+}
+
+/* Matching Superscript Font */
+sup{
+  vertical-align: super;
+  font-size: 27px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/* Adjusting Location Font */
+#location{
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+/* Adjusting Weather Icon */
+.weatherIcon{
+  font-size: 64px;
+  display: none;
+  color: #FFFFFF;
+}
+
+/* Adjusting Weather Type Font */
+#weatherType{
+  color: #FFFFFF; 
+}
+
+#footerCard{
+  color: #FFFFFF;
+  font-family: "PT Mono", Arial;
+  font-size: 9px;
+}
+

@@ -1,0 +1,84 @@
+<!-- Tausif S. 2018 -->
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather Web App</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Main Container -->
+<div class="container text-center">
+  <!-- Central Well -->
+  <div class="well col-xs-12 col-md-2">
+    <!-- Temperature Holder -->
+    <div id="temp"></div>
+    
+    <!-- Location Holder -->
+    <div id="location"></div>
+    <br>
+    
+    <!-- Weather Icon Holders -->
+    <div class="clearDay weatherIcon"><i class="fas fa-sun"></i></div>
+    <div class="clearNight weatherIcon"><i class="fas fa-moon"></i></div>
+    <div class="clouds weatherIcon"><i class="fas fa-cloud"></i></div>
+    <div class="rain weatherIcon"><i class="fas fa-tint"></i></div>
+    <div class="thunder weatherIcon"><i class="fas fa-bolt"></i></div>
+    <div class="snow weatherIcon"><i class="fas fa-snowflake"></i></div>
+    <div class="mist weatherIcon"><i class="fas fa-align-center"></i></div>
+    <div class="otherWeather weatherIcon"><i class="fas fa-exclamation"></i></div>
+    
+    <!-- Weather Type Holder -->
+    <div id="weatherType"></div>
+    
+    <br>
+    <br>
+    
+    <!-- Celsius and Fahrenheit Button -->
+    <div class="btn-group" data-toggle="buttons">
+      <label id="celsius" class="btn btn-primary btn-circle active">
+        <input class="form-check-input" type="radio"><b>C</b>
+      </label>
+      
+      <label id="fahrenheit" class="btn btn-primary btn-circle">
+       <input class="form-check-input" type="radio"><b>F</b>
+      </label>
+    </div>
+    
+    <!-- Refresh Button -->
+    <button id="getTemp" class="btn btn-success btn-circle"><i class="fas fa-sync-alt"></i></button>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div id="footerCard">Minimal Weather App</div>
+    
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
